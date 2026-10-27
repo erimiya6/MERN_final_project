@@ -1,0 +1,13 @@
+{
+  "name": "sst-lost-found-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SST Lost & Found - Full Stack Web Application",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "test:server": "npm --prefix server test",
+    "build:client": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed"
+  }
+}
